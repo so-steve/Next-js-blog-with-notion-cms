@@ -12,8 +12,6 @@ export default async function handler(req, res) {
 
     const linkTemplate = `https://api.telegram.org/bot${telegramToken}/sendMessage?chat_id=${telegramChatID}&text=${message}`;
     const finLink = encodeURI(linkTemplate);
-    console.log(finLink);
-
     axios.get(finLink).then((response) => {
       res.status(200).send(response);
     });
