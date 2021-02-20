@@ -1,6 +1,7 @@
 # Next.js blog using Notion.so as CMS
 
-➕ a simple integration with Telegram for
+➕ a simple integration with Telegram for information capture.
+
 
 # 👁 [DEMO IS HERE](https://blog-next.4th-roommate.vercel.app/)
 
