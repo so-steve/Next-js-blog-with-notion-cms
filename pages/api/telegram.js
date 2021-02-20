@@ -11,8 +11,10 @@ export default async function handler(req, res) {
     let message = email + "  -  " + first + "  -  " + last;
 
     const linkTemplate = `https://api.telegram.org/bot${telegramToken}/sendMessage?chat_id=${telegramChatID}&text=${message}`;
+    const finLink = encodeURI(linkTemplate);
+    console.log(finLink);
 
-    axios.get(linkTemplate).then((response) => {
+    axios.get(finLink).then((response) => {
       res.status(200).send(response);
     });
   } catch (error) {
