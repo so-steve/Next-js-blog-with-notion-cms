@@ -1,0 +1,21 @@
+{
+  "name": "create-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@geist-ui/react": "latest",
+    "@typeform/embed": "^0.33.2",
+    "axios": "^0.21.1",
+    "next": "9.4.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-notion": "^0.9.3",
+    "react-typeform-embed": "^0.2.1",
+    "swr": "^0.4.2"
+  }
+}

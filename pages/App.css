@@ -1,0 +1,32 @@
+.notion-asset-wrapper {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.notion-image-caption {
+  opacity: 0 !important;
+}
+
+.notion-image-inset {
+  width: 100% !important;
+  height: auto;
+}
+
+hr {
+  width: 30%;
+  border-bottom: 8px solid #fa502b;
+}
+
+.blogpost h3 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+figure div {
+  padding: 0px 0 !important;
+}
+
+header figure {
+  margin: 0;
+  padding: 0;
+}
