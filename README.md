@@ -23,7 +23,7 @@ Remember, each section must be filled!
 
 ## Make it your own
 
-To use it you need to create your own database. Copy it from this link https://www.notion.so/whatifbelief/**88f847314b884d228431da3b1fe44a5a**?v=b3838604e52c40c7bb5a8984a554dc31. After you import it into your notion workplace you need to replace the notion id in the repository with your id.
+To use it you need to create your own database. Copy it from this link https://www.notion.so/whatifbelief/88f847314b884d228431da3b1fe44a5a?v=b3838604e52c40c7bb5a8984a554dc31. After you import it into your notion workplace you need to replace the notion id in the repository with your id.
 
 ```
 next.config.js
