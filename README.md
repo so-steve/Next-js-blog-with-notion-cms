@@ -1,6 +1,6 @@
 # Next.js blog using Notion.so as CMS
 
-➕ a simple integration with Telegram for information capture.
+➕ a simple integration with Zapier for information capture.
 
 
 # 👁 [DEMO IS HERE](https://blog-next.4th-roommate.vercel.app/)
@@ -36,18 +36,16 @@ module.exports = {
 
 ```
 
-## Telegram integration
+## Zapier integration
 
 ```
-pages/api/telegram.js
+pages/api/zapier.js
 
-const telegramToken = process.env.TELEGRAM_BOT_TOKEN; // replace with your telegram token
-const telegramChatID = "-1001199562757"; // replace with your telegram chat id
+const zapierLink = "https://hooks.zapier.com/hooks/catch/*******/*******"; // replace with your Zapier link
 
 ```
 
-[This Medium article](https://sean-bradley.medium.com/get-telegram-chat-id-80b575520659) can help you to find this information.
-Otherwise, you can remove this Telegram integration at all
+Replace with your Zapier link and process the information however you'd like.
 
 ## License
 
