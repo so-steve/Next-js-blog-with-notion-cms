@@ -42,20 +42,14 @@ export default function Article(props) {
 }
 
 export async function getStaticPaths() {
-  let paths = [];
-  await axios
-    .get(`https://notion-api.splitbee.io/v1/table/${notionTableId}`)
-    .then(function (response) {
-      response.data.forEach((x) => {
-        paths.push({
-          params: {
-            slug: x.slug,
-            title: "test",
-          },
-        });
-      });
-    });
-
+  const url = `https://notion-api.splitbee.io/v1/table/${notionTableId}`;
+  const { data } = await axios.get(url);
+  const paths = data.map((e) => ({
+    params: {
+      slug: e.slug,
+      title: "test",
+    },
+  }));
   return {
     paths: paths,
     fallback: false,
