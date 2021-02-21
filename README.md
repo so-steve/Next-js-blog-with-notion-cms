@@ -50,3 +50,9 @@ Replace with your Zapier link and process the information however you'd like.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Credits
+
+👏 [UI Library](https://github.com/geist-org/react) has been used in this project
+
+
