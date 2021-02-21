@@ -26,7 +26,7 @@ function submit() {
     let val3 = document.getElementById("last").value;
 
     axios
-      .post("/api/telegram", {
+      .post("/api/zapier", {
         email: val1,
         first: val2,
         last: val3,
