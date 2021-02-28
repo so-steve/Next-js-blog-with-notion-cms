@@ -35,7 +35,7 @@ module.exports = {
 };
 
 ```
-❗️❗️❗️❗️❗️ Your Notion pages must be public to be read (otherwise you'll get an error). So, make sure you share them to web. 
+❗️❗️❗️ Your Notion pages must be public to be read (otherwise you'll get an error). So, make sure you share them to web. 
 
 ## Zapier integration
 
