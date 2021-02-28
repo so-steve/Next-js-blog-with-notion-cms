@@ -9,13 +9,14 @@ export default function Article(props) {
   return (
     <div>
       <Head>
-        <title>{props.name}</title>
+        <title>{props.name} | BLOG</title>
         <meta name="description" content={props.description} />
       </Head>
       <div>
         <Intro />
         <div className="article pt-5 pb-1">
           <div style={{ maxWidth: 768 }} className="mx-auto container blogpost">
+            <h1>{props.name}</h1>
             <NotionRenderer id="blog" blockMap={props.blog} />
           </div>
         </div>
@@ -78,7 +79,7 @@ export async function getStaticProps({ params }) {
 
     return {
       props: {
-        name: `BLOG | ${res0.title}` || null,
+        name: res0.title || null,
         description: res0.description || null,
         blog: data || null,
       },
