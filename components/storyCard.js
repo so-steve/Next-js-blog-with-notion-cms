@@ -10,11 +10,11 @@ export default function StoryCard({ posts }) {
             <Link href={"posts/" + post.slug}>
               <a>
                 <Card hoverable>
-                  <Image
+                  {post.coverImage ? <Image
                     src={post.coverImage}
                     height="300"
                     style={{ objectFit: "cover" }}
-                  />
+                  /> : undefined}
                   <Text h4 style={{ marginBottom: "0" }}>
                     {post.title}
                   </Text>
